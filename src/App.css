@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&display=swap');
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.1.0/github-markdown-light.css');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Source Code Pro";
+  box-sizing: border-box;
+}
+
+/* Container for columns and the top "toolbar" */
+.row {
+  background: #f1f1f1;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left {
+  width: 25%;
+}
+
+.middle {
+  width: 75%;
+}
+
+/* Three dots */
+.dot {
+  margin: 4px;
+  height: 12px;
+  width: 12px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
